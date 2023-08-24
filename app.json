@@ -1,13 +1,37 @@
 {
   "expo": {
-    "scheme": "acme",
-    "web": {
-      "bundler": "metro"
+    "name": "Pexels App CodeZeal",
+    "slug": "Awesome-pexels-app-codeZeal",
+    "description": "test awesome app using pexels api by CodeZeal",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#171717"
     },
-    "plugins": [
-      "expo-router"
+    "assetBundlePatterns": [
+      "**/*"
     ],
-    "name": "mercantil-app-tailwind",
-    "slug": "mercantil-app-tailwind"
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#171717"
+      },
+      "package": "com.codezeal.AwesomepexelsappcodeZeal"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "adc59df6-87a9-4872-a3ad-6c6073396390"
+      }
+    }
   }
 }
